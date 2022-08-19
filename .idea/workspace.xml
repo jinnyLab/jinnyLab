@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a61e6674-f908-4cb9-ad3a-dd955ff4ae9a" name="Default Changelist" comment="" />
+    <list default="true" id="a61e6674-f908-4cb9-ad3a-dd955ff4ae9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -345,7 +347,7 @@
       <workItem from="1660113952924" duration="5157000" />
       <workItem from="1660199195769" duration="2045000" />
       <workItem from="1660717579369" duration="1438000" />
-      <workItem from="1660719793205" duration="6366000" />
+      <workItem from="1660719793205" duration="6807000" />
     </task>
     <task id="LOCAL-00001" summary="Changing structures">
       <created>1660189306452</created>
@@ -368,7 +370,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../jinnyLab_old/src/3D_realignment.py</url>
+          <url>file://$PROJECT_DIR$/../shading_correction/src/3D_realignment.py</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
