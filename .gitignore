@@ -1,2 +1,3 @@
 *.egg-info__pycache__/.
-jinnylab/__pycache__/.
+jinnylab/__pycache__/
+*.egg-info/
