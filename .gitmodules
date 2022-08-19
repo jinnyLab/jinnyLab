@@ -1,0 +1,3 @@
+[submodule "jinnylab/shading_correction"]
+	path = jinnylab/shading_correction
+	url = https://github.com/hyungju-jeon/shading_correction
