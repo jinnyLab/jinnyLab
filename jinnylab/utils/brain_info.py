@@ -1,4 +1,4 @@
-__all__ = ["read_brain_info"]
+__all__ = ["read_brain_info", "read_midline_info"]
 
 import os
 

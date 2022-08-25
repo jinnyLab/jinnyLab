@@ -235,13 +235,13 @@ def curr_dir() -> str:
 
 
 def atlas_repository_dir() -> str:
-    res = os.path.normpath(os.path.join(curr_dir(), '..'))
+    res = os.path.normpath(os.path.join(curr_dir(), '../..'))
     assert os.path.exists(res)
     return res
 
 
 def base_dir() -> str:
-    res = os.path.normpath(os.path.join(atlas_repository_dir(), '..'))
+    res = os.path.normpath(os.path.join(atlas_repository_dir(), '../..'))
     assert os.path.exists(res)
     return res
 
