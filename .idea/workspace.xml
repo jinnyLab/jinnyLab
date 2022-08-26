@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a61e6674-f908-4cb9-ad3a-dd955ff4ae9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jinnylab/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jinnylab/brain_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/jinnylab/utils/brain_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jinnylab/img_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/jinnylab/utils/img_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jinnylab/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/jinnylab/utils/io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jinnylab/shading_correction" beforeDir="false" afterPath="$PROJECT_DIR$/jinnylab/shading_correction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jinnylab/shading_correction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/jinnylab/shading_correction" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -217,7 +210,8 @@
       <workItem from="1660199195769" duration="2045000" />
       <workItem from="1660717579369" duration="1438000" />
       <workItem from="1660719793205" duration="7853000" />
-      <workItem from="1661153716728" duration="13077000" />
+      <workItem from="1661153716728" duration="13718000" />
+      <workItem from="1661496204079" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="Changing structures">
       <created>1660189306452</created>
