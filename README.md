@@ -8,7 +8,7 @@ jinnyLab Core Python packages
     ```bash
     # create new environment
     conda env remove -n jinnylab -y
-    conda env create --name recoveredenv --file environment.yml
+    conda env create --name jinnylab --file environment.yml
     # install conda packages
     conda activate jinnylab
     conda update --all -y
