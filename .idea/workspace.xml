@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a61e6674-f908-4cb9-ad3a-dd955ff4ae9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinnylab/shading_correction/_test/test_changLab_imaris_shading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinnylab/shading_correction/_test/test_stack_shading_correction.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jinnylab/shading_correction/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/jinnylab/shading_correction/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinnylab/shading_correction/src/run_shading_correction.py" beforeDir="false" afterPath="$PROJECT_DIR$/jinnylab/shading_correction/src/run_shading_correction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinnylab/shading_correction/test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jinnylab/shading_correction/utils/shading_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/jinnylab/shading_correction/utils/shading_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +216,10 @@
       <workItem from="1660717579369" duration="1438000" />
       <workItem from="1660719793205" duration="7853000" />
       <workItem from="1661153716728" duration="13718000" />
-      <workItem from="1661496204079" duration="4086000" />
+      <workItem from="1661496204079" duration="5437000" />
+      <workItem from="1661947204768" duration="598000" />
+      <workItem from="1661956016650" duration="102000" />
+      <workItem from="1662538274993" duration="1825000" />
     </task>
     <task id="LOCAL-00001" summary="Changing structures">
       <created>1660189306452</created>
