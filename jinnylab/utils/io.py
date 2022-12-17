@@ -538,7 +538,26 @@ def unpack_file_to_folder(file: str, folder: str):
     elif file.lower().endswith('.tar.gz') or file.lower().endswith('.tar.bz2') or file.lower().endswith('.tar.xz') \
             or file.lower().endswith('.tgz'):
         with tarfile.open(file, mode='r|*') as tf:
-            tf.extractall(path=folder)
+            def is_within_directory(directory, target):
+                
+                abs_directory = os.path.abspath(directory)
+                abs_target = os.path.abspath(target)
+            
+                prefix = os.path.commonprefix([abs_directory, abs_target])
+                
+                return prefix == abs_directory
+            
+            def safe_extract(tar, path=".", members=None, *, numeric_owner=False):
+            
+                for member in tar.getmembers():
+                    member_path = os.path.join(path, member.name)
+                    if not is_within_directory(path, member_path):
+                        raise Exception("Attempted Path Traversal in Tar File")
+            
+                tar.extractall(path, members, numeric_owner=numeric_owner) 
+                
+            
+            safe_extract(tf, path=folder)
     elif file.lower().endswith('.7z'):
         if is_windows():
             subprocess.run(['7za', 'x', '-y', '-o' + folder, file],
